@@ -44,5 +44,6 @@ function stop() {
     PR.innerHTML = `<i class="fa-solid fa-play PR" style="color: #ffffff;"></i>`
 }
 function reset() {
+    display.innerHTML = "00:00:00"
     location.reload()
 }
